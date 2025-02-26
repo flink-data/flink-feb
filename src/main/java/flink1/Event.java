@@ -12,7 +12,9 @@ public class Event {
         this.timestamp = timestamp;
     }
 
+    public Event(){}
+
     public String toString() {
-        return "Event " + user + "url = " + url + "timestamp= " + timestamp;
+        return "Event " + user + " url = " + url + " timestamp= " + timestamp;
     }
 }
