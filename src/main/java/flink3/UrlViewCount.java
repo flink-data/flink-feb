@@ -6,7 +6,6 @@ public class UrlViewCount {
     public Long count;
     public Long windowStart;
     public Long windowEnd;
-    // 必须要有空参的构造方法
 
     public UrlViewCount() {
     }
